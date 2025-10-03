@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const axios = require("axios").default;
 const path = require("path");
 const fs = require("fs");
