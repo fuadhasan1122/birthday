@@ -4,5 +4,6 @@
   command = "npm run build"
 
 [template.environment]
+ NETLIFY_USE_BUILD_IMAGE = "focal"
   NAME = "enter Name of the receiver"
   PIC = "enter web url of the receiver's image"
